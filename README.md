@@ -13,7 +13,7 @@ The SOAR EDR Project is an integrated solution that combines Endpoint Detection 
       - Enforce network-level isolation (e.g, blocking all traffic except management traffic).
       - Stop specific processes or quaratine files.
   - **Detection Alerts:**
-   ```json
+   ```
    # Tines Configuration Webhook
    Title: <<retrieve_action.body.cat>><
    Time: <<retrieve_action.body.detect.routing.event_time>>
@@ -51,7 +51,7 @@ The SOAR EDR Project is an integrated solution that combines Endpoint Detection 
     - Receive automated alerts and status updates from Tines.
     - Interactive components allow users to approve or reject isolation actions.
   - **Slack Message Format:**
-  ```json
+  ```
   # Slack (Tines) Configuration Webhook
   Title: <<retrieve_action.body.cat>>
   Time: <<retrieve_action.body.detect.routing.event_time>>
