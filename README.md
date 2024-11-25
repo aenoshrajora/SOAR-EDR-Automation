@@ -3,6 +3,13 @@
 ## Introduction
 The SOAR EDR Project is an integrated solution that combines Endpoint Detection and Response (EDR), Security Orchestration and Automation (SOAR), and communication platforms to streamline the detection, notification, and response to cybersecurity threats. The system uses **LimaCharlie** for endpoint detection and isolation, **Tines** for automation and orchestration, and Slack for real-time collaboration. This documentation outlines the technical components, workflows, and data structures used within the system. This project was inspired by [MyDFIR](https://www.mydfir.com/)
 
+## Technology (Software) Used
+1. [Windows Server 2022](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022)
+2. [Tines](https://www.tines.com/)
+3. [LimaCharlie](https://limacharlie.io/)
+4. [Slack](https://slack.com/intl/en-in)
+5. [Temp-mail](https://temp-mail.org) 
+
 ## System Components
 #### 1. Endpoint Detection and Response (LimaCharlie)
   - Purpose: Monitor endpoints for suspicious activity and respond to threats.
