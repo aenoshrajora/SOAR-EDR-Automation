@@ -10,6 +10,8 @@ The SOAR EDR Project is an integrated solution that combines Endpoint Detection 
 4. [Slack](https://slack.com/intl/en-in)
 5. [Temp-mail](https://temp-mail.org) 
 
+## Project System
+1. [Windows Server 2022](Windows%20Configuration.md)
 ## System Components
 #### 1. Endpoint Detection and Response (LimaCharlie)
   - Purpose: Monitor endpoints for suspicious activity and respond to threats.
