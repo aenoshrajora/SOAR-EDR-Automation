@@ -3,7 +3,7 @@
 2. Install it on Virtualbox or VMware
 3. Create a LimaCharlie account
    1. Download the LimaCharlie Sensor onto machine
-        ![sensor download](./assest/sensorDownload.png)
+            ![sensor download](./assest/sensorDownload.png)
    2. Install the LimaCharlie with the following command
         ```
         .\hcp_win_x64_release_4.29.0.exe -i <Installation Key>
